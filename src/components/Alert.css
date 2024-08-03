@@ -1,0 +1,41 @@
+/* Alert.css */
+.alert {
+    position: relative;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+  }
+  
+  .alert-success {
+    background-color: #28a745; /* Green */
+  }
+  
+  .alert-error {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .alert-info {
+    background-color: #17a2b8; /* Blue */
+  }
+  
+  .alert-warning {
+    background-color: #ffc107; /* Yellow */
+  }
+  
+  .alert-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .alert-close:hover {
+    color: #ccc;
+  }
+  
